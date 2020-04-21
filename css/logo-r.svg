@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="800" width="800" viewBox="133 132 560 560">
+  <defs>
+    <style type="text/css">@import url("https://fonts.googleapis.com/css?family=Titillium+Web:700");</style>
+    <rect id="rect-1" opacity="1" x="133" y="281" width="250" height="250"/>
+    <mask id="mask-2" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="0">
+      <rect opacity="1" x="0" y="0" width="800" height="800" fill="black"/>
+      <use xlink:href="#rect-1" fill="white"/>
+    </mask>
+    <rect id="rect-3" opacity="1" x="270" y="132" width="399" height="399"/>
+    <mask id="mask-4" maskUnits="userSpaceOnUse" maskContentUnits="userSpaceOnUse" x="0" y="0">
+      <rect opacity="1" x="0" y="0" width="800" height="800" fill="black"/>
+      <use xlink:href="#rect-3" fill="white"/>
+    </mask>
+  </defs>
+  <g>
+    <g opacity="1">
+      <use xlink:href="#rect-1" fill-opacity="0" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="50" stroke-linecap="butt" stroke-linejoin="miter" mask="url(#mask-2)"/>
+    </g>
+    <g opacity="1">
+      <use xlink:href="#rect-3" fill-opacity="0" stroke="rgb(0,0,0)" stroke-opacity="1" stroke-width="50" stroke-linecap="butt" stroke-linejoin="miter" mask="url(#mask-4)"/>
+    </g>
+    <g opacity="1">
+      <text font-size="0" transform="translate(120.5, 486)">
+        <tspan font-size="160" font-family="Titillium Web" font-weight="700" style="white-space: pre;text-transform: none" fill="rgb(0,0,0)" letter-spacing="8.533333333333333" x="0" y="181">RE</tspan>
+        <tspan font-size="160" font-family="Titillium Web" font-weight="700" style="white-space: pre;text-transform: none" fill="rgb(0,0,0)" letter-spacing="8.533333333333333">DIST</tspan>
+      </text>
+    </g>
+  </g>
+</svg>

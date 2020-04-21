@@ -1,0 +1,71 @@
+
+
+html {
+	height: 100vh;
+	min-width: 600px;
+}
+
+body {
+	background:
+		linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/stock-02.jpeg);
+	background-position: center center;
+	background-size: cover;
+	min-height: 100vh;
+
+	/*font-family: 'Ropa Sans', sans-serif;*/
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+#main {
+	
+}
+
+#main-left {
+	/*height: 100vh;*/
+}
+
+#logo {
+	width: 96px;
+}
+
+#logo img {
+	width: 100%;
+	filter: invert(1);
+}
+
+.headline-container {
+	height: 60vh;
+}
+
+.headline {
+	font-weight: 700;
+	color: white;
+	font-size: 5vh;
+}
+
+
+#footer-text {
+	font-size: 1.5vh;
+	font-weight: 300;
+	color: white;
+}
+
+#footer-text-container {
+	margin: 1vh 1vh;
+}
+
+.social {
+}
+
+.social img {
+	filter: invert(1);
+	width: 2vh;
+	max-width: 24px;
+	min-width: 12px;
+	margin: 0 .5vh;
+}
+
+#target {
+	display: inline-block;
+	height: 50px;
+}
