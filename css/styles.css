@@ -43,6 +43,12 @@ body {
 	font-size: 5vh;
 }
 
+.logo-container img {
+	width: 80px;
+	filter: grayscale(1);
+	margin: 0 20px;
+}
+
 
 #footer-text {
 	font-size: 1.5vh;
