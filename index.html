@@ -10,24 +10,26 @@
 
     <!-- Local CSS -->
     <link rel="stylesheet" href="css/styles.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="css/quick.css" type="text/css" charset="utf-8" />
+    <link rel="stylesheet" href="css/struct.css" type="text/css" charset="utf-8" />
     <link href="https://fonts.googleapis.com/css2?family=Ropa+Sans&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="shortcut icon" href="css/ico.ico" type="image/x-icon">
 
     <title>REDIST</title>
   </head>
   <body>
-
-    <!-- MAIN -->
-    <div class="container-fluid" id="main">
-
-      <div class="row mt-2 pt-4">
-        <div class="col-1">
+    
+    <!-- full width splash -->
+    <div class="container-fluid">
+      <div class="row pt-5 home-splash">
+        <div class="col-2">
         </div>
-        <div class="col-6 d-flex flex-column" id="main-left">
-          <div id="logo">
-            <img src="css/logo-r.png">
-          </div>
+        <div class="col-6 d-flex flex-column">
+          
+          <img id="logo" src="css/logo-r.png">
+          
           <div class="headline-container d-flex">
             <div class="headline align-self-center">
               <h1 style='font-weight: 600'>Discover and understand geography-specific legislation and local law.</h1>
@@ -41,49 +43,170 @@
         </div>
         <div class="col-1 ml-auto">
           <div class="float-right">
-            <a class="btn btn-outline-light" href="http://app.redist.us">Login</a>
+            <a class="btn btn-outline-light" href="https://app.redist.us">Login</a>
           </div>
         </div>
-        <div class="col-1">
-        </div>
-      </div>
-
-      <div class="row mt-2 pt-4">
-        <div class="col-1">
-          
-        </div>
-        <div class="col d-flex justify-content-center">
-          <div class="logo-container">
-<!--             <img src="images/logos/avalon.jpg">
-            <img src="images/logos/brookfield.svg">
-            <img src="images/logos/goldman.svg"> -->
-          </div>
-        </div>
-        <div class="col-1">
-          
-        </div>
-      </div>
-
-    </div>
-
-    <!-- FOOTER -->
-    <div class="fixed-bottom pb-4" id="footer">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col text-center" id="footer-text-container">
-            <span id="footer-text">&#169; REDIST 2020. All rights reserved.</span>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col text-center">
-            <span class="social">
-              <img src="css/ig.svg">
-              <img src="css/lnkd.svg">
-            </span>
-          </div>
+        <div class="col-2">
         </div>
       </div>
     </div>
+    <!-- END full width splash -->
+
+    <!-- START lower content -->
+    <div class="container-fluid" id="first-card">
+      <div class="container">
+
+        <div class="home-panel">
+          <div class="card" id="first-carda">
+            <div class="card-body card-body-p">
+              <div class="row">
+                <div class="col-4 text-right">
+                  <h2 class="fw-7">Our vision</h2>
+                </div>
+                <div class="col border-left">
+                  <h2 class="fw-7">Connecting Communities & Investment</h2>
+                  <div class="">
+                    <h5 class="fw-3 my-3">$100 billion and growing of US-taxpayer funded real estate development incentives are made available and distributed every year.</h5>
+                    <h5 class="fw-3 my-3">These incentives are designed to foster targeted investment in underserved communities, but there is a massive lack of knowledge around their existence and use.</h5>
+                  </div>
+                  <h2 class="fw-7 mt-4">Empowering Real Estate Professionals</h2>
+                  <div class="">
+                    <h5 class="fw-3 my-3">REDIST's seeks to provide real estate business of all sizes with the information, tools and services to discover, understand, and access real estate incentives.</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="home-panel">
+          <div class="card">
+            <div class="card-body card-body-p">
+              <div class="row">
+                <div class="col text-center">
+                  
+                </div>
+              </div>
+              <div class="row justify-content-center">
+
+                
+                <div class="col-4 text-right">
+                  <h2 class="fw-7">Our markets</h2>
+                </div>
+                <div class="col border-left">
+                  <!-- <img class="img-fluid" id="dotmap" src="./images/dotmap.jpg" alt=""> -->
+                  <h6>FULL COVERAGE</h6>
+                  <h5>New York</h5>
+                  <h5>New Jersey</h5>
+                  <h5>Connecticut</h5>
+                </div>
+                <div class="col border-left">
+                  <h6>UPCOMING</h6>
+                  <h5>Pennsylvania</h5>
+                  <h5>California</h5>
+                </div>
+                
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="home-panel home-panel-last">
+          <div class="card">
+            <div class="card-body card-body-p">
+              <div class="row">
+                <div class="col text-center">
+                  
+                </div>
+              </div>
+              <div class="row logo-container">
+                <div class="col-4 text-right border-right">
+                  <h2 class="fw-7">Our clients</h2>
+                </div>
+                
+                <div class="col">
+                  <div class="row text-center justify-content-between align-items-center">
+                    <div class="col-4">
+                      <div class="logo-placeholder">
+                        <div class="d-flex align-items-center justify-content-center" style="height: 100%">
+                          Multi-Bn RE Developer
+                        </div>
+                      </div>                      
+                    </div>
+                    <div class="col-4">
+                      <div class="logo-placeholder">
+                        <div class="d-flex align-items-center justify-content-center" style="height: 100%">
+                          Premier Investment Bank
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-4">
+                      <div class="logo-placeholder">
+                        <div class="d-flex align-items-center justify-content-center" style="height: 100%">
+                          National Brokerage
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+
+
+
+
+    </div>
+    <!-- END lower content -->
+    <!-- START footer -->
+    <div class="container-fluid home-footer">
+      
+        <div class="row">
+          <div class="col-2"></div>
+          <div class="col">
+            <div class="row py-5">
+              <div class="col">
+                <img id="footer-logo" src="css/logo-r.png">
+              </div>
+              <div class="col text-right border-right">
+                <h6>CONTACT</h6>
+                <h5>hello@redist.us</h5>
+              </div>
+              
+              <div class="col text-right border-right">
+                <h6>ABOUT</h6>
+                <h5>Team</h5>
+                <h5>Press</h5>
+              </div>
+            </div>
+            <div class="row py-5 border-top">
+              <div class="col">
+                <h5>&#169; REDIST 2020</h5>
+                <h5 class="fw-3">All rights reserved</h5>
+              </div>
+              <div class="col text-right">
+                <span class="social">
+                  <img src="css/ig.svg">
+                  <img src="css/lnkd.svg">
+                </span>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-2"></div>
+        </div>
+      
+    </div>    
+
+    <!-- END footer -->
 
 
     <!-- Optional JavaScript -->

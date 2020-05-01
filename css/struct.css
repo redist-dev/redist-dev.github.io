@@ -1,0 +1,21 @@
+.card {
+  border: none;
+  background: rgba(255,255,255,.95);
+}
+
+.card-body {
+  -webkit-box-shadow: 0 0 13px 0 rgba(82,63,105,.05);
+  box-shadow: 0 0 13px 0 rgba(82,63,105,.05);
+}
+
+.card-body-p {
+  padding: 3em;
+}
+
+#first-card {
+  padding: 8em 0;
+  background:
+    linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url(../images/2.jpeg);
+  background-position: center center;
+  background-size: cover;
+}
