@@ -16,7 +16,11 @@ body {
 }
 
 .headline-container {
-	height: 60vh;
+	height: 70vh;
+}
+
+.headline-container h4 {
+	line-height: 1.5em;
 }
 
 .headline {
@@ -93,3 +97,4 @@ body {
 	width: 48px;
 	filter: invert(1);
 }
+
