@@ -23,8 +23,14 @@ body {
 	filter: invert(1);
 }
 
+.main-logo-container {
+	min-height: 128px;
+	height: 30vh;
+	/*padding-bottom: 5vh;*/
+}
+
 .headline-container {
-	height: 70vh;
+	
 }
 
 .headline-container h4 {
@@ -34,7 +40,6 @@ body {
 .headline {
 	font-weight: 700;
 	color: white;
-	font-size: 5vh;
 }
 
 .logo-container img {
@@ -59,7 +64,7 @@ body {
 }
 
 .home-splash {
-	height: 100vh;
+	/*height: 100vh;*/
 	background:
 		linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/stock-02.jpeg);
 	background-position: center center;
