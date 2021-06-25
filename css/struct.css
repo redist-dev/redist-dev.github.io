@@ -1,11 +1,13 @@
 .card {
-  border: none;
-  background: rgba(255,255,245,.96);
+  border-width: 4px;
+  border-radius: 0;
+  border-color: black;
+  background: white;
 }
 
 .card-body {
-  -webkit-box-shadow: 0 0 13px 0 rgba(82,63,105,.05);
-  box-shadow: 0 0 13px 0 rgba(82,63,105,.05);
+  /*-webkit-box-shadow: 0 0 13px 0 rgba(82,63,105,.05);*/
+  /*box-shadow: 0 0 13px 0 rgba(82,63,105,.05);*/
 }
 
 .card-body-p {
@@ -13,12 +15,16 @@
 }
 
 .card-body p {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 300;
   line-height: 1.5em;
   margin-top: .8em;
   margin-bottom: .5em;
   color: rgb(40,40,40);
+}
+
+.card-body > .row {
+  flex-wrap: nowrap;
 }
 
 #first-card {
@@ -27,4 +33,14 @@
     linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url(../images/2.jpeg);
   background-position: center center;
   background-size: cover;
+}
+
+#team {
+  padding: 8em 0;
+  background-color: white;
+}
+
+#team-top {
+  height: 200px;
+  width: 500px;
 }

@@ -13,9 +13,13 @@ html {
 
 body {
 	/*font-family: 'Ropa Sans', sans-serif;*/
-	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Rubik', sans-serif;
 	background: #f2f6f9;
 	color: rgba(20,20,20);
+}
+
+p {
+
 }
 
 #logo {
@@ -25,12 +29,13 @@ body {
 
 .main-logo-container {
 	min-height: 128px;
-	height: 30vh;
+	height: 22vh;
 	/*padding-bottom: 5vh;*/
 }
 
 .headline-container {
-	
+	/*height: 40vh;
+	max-height: 60vh;*/
 }
 
 .headline-container h4 {
@@ -38,6 +43,9 @@ body {
 }
 
 .headline {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	font-weight: 700;
 	color: white;
 }
@@ -66,7 +74,7 @@ body {
 .home-splash {
 	/*height: 100vh;*/
 	background:
-		linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/stock-02.jpeg);
+		linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url(../images/bg-id.jpg);
 	background-position: center center;
 	background-size: cover;
 	min-height: 100vh;
@@ -106,8 +114,24 @@ body {
 	margin: 0 .5vh;
 }
 
+.inline-social {
+	width: 2vh;
+	max-width: 24px;
+	min-width: 12px;
+	margin: 0 .5vh;
+}
+
+#header-logo {
+	width: 128px;
+	filter: invert(1);
+}
+
 #footer-logo {
 	width: 48px;
 	filter: invert(1);
 }
 
+.request-btn {
+	background-color: rgba(34, 85, 255,.75);
+	border-color: rgba(34, 85, 255,.75);
+}
